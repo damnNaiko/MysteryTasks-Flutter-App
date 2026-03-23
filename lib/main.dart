@@ -1,4 +1,5 @@
 import 'package:MysteryTasks/presentation/screens/registration_screen.dart';
+import 'package:MysteryTasks/presentation/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MysteryTasks extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'MysteryTasks',
-      home: const RegistrationScreen(),
+      home: const WelcomeScreen(),
     );
   }
 }
